@@ -1,0 +1,24 @@
+13-02-2025 - 5,6,7
+//AB : 151,162,165,174,186,192,
+//OD : 155,157,159,161,167,193,200,
+
+Array:
+datatype varaible name [size]; // Static Memory allocation
+int arr[5];
+float farr[5];
+struct student sarr[5];
+
+datatype * varablename;
+int * arr;
+float * farr;
+struct student * sarr;
+
+int * arr = (int *)malloc(sizeof(int)*size);
+float * farr = (float *)malloc(sizeof(float)* size);
+struct student * sarr = (struct student *) malloc(sizeof(struct student)*size);
+
+
+
+
+
+

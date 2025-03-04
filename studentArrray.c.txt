@@ -1,0 +1,31 @@
+#include<stdio.h>
+#include<stdlib.h>
+struct user{
+	int id;
+	char name[50];
+	char email[100];
+};
+int lastIndex = 0;
+struct user * createArray(int);
+void insertAtFirst(struct user *,struct user);
+void insertAtLast(struct user *,struct user);
+void inserAtSpecificIndex(struct user *,struct user,int);
+struct user deleteAtFirst(struct user *);
+struct user deleteAtLast(struct user *);
+struct user deleteAtSpecificPosition(struct user *,int );
+void updateUserByID(struct user *,int);
+void display(struct user *);
+int  main(){
+	int size;
+	struct user * uarr = NULL;
+	printf("Enter the no of Users:\n");
+	scanf("%d",&size);
+	uarr = createArray(size);
+	return 0;
+}
+
+struct user * createArray(int size){
+	return (int *)malloc(sizeof(int)*size);
+}
+	
+	
