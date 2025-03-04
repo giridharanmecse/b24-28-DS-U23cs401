@@ -14,7 +14,7 @@ struct node * createNode(int data){
     return newNode;
 }
 
-struct node * InsertAtFirst(struct node * head,int data){
+struct node * insertAtFirst(struct node * head,int data){
     struct node * newNode = createNode(data);
     if(head == NULL){
         return newNode;
@@ -22,5 +22,20 @@ struct node * InsertAtFirst(struct node * head,int data){
         newNode->next = head;
         head->prev = newNode;
         return newNode;
+    }
+}
+
+struct node * insertAtLast(struct node * head,inr data){
+    struct node * newNode = createNode(data);
+    if(head == NULL){
+        return newNode;
+    } else {
+        struct node * temp = head;
+        while(temp->next != NULL){
+            temp = temp->next;
+        }
+        temp->next = newNode;
+        newNode->prev = temp;
+        return head;
     }
 }
