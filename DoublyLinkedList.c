@@ -50,7 +50,68 @@ struct node * insertAtLast(struct node * head,int data){
 	return head;
 }
 
+struct node * insertAtSpecificPosition(struct node * head,int data,intr pos){
+    if(head == NULL & pos>1){
+        printf("Data cannot be inserted at the Given Position");
+        return NULL;
+    } else if (pos == 1){
+        return insertAtFirst(head,data);
+    } else {
+        struct node * newNode = createNode(data);
+        struct node * temp = head;
+        int count = 0;
+        while(temp != NULL){
+            count++;
+            if(count == pos-1){
+                newNode->next = temp->next;
+                temp->next->prev = newNode;
+                temp->next = newNode;
+                newNode->prev = temp;
+                return head;
+            }
+            temp = temp->next;
+        }
+        if(count==pos-1){
+            temp->next = newNode;
+            newNode->prev = temp;
+        }
+        return head;
+    }
+}
 
+struct node * deleteAtFirst(struct node * head){
+    if(head == NULL){
+        return NULL;
+    } else if(head->next == NULL){
+        free(head);
+        return NULL;
+    }else {
+        struct node * temp = head;
+        head->next->prev = NULL;
+        head = head->next;
+        free(temp);
+        return head;
+        
+    }
+}
+
+struct node * deleteAtLast(struct node * head){
+    if(head == NULL){
+        return NULL;
+    } else if(head->next == NULL){
+        free(head);
+        return NULL;
+    } else {
+        struct node * temp = head;
+        while(temp->next!=NULL){
+            temp = temp->next;
+        }
+        
+        temp->prev->next = NULL;
+        free(temp);
+        return head;
+    }
+}
 
 
 int main(){
