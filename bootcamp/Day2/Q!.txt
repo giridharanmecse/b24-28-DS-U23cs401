@@ -1,0 +1,121 @@
+Title: The Silent Echo
+
+The Matheson family had always been close-knit, their lives intertwined in the quiet town of Willow Creek. James, the father, was a history professor; his wife, Laura, a talented artist. Their three children—Adam, 18, a rebellious yet brilliant tech enthusiast; Emma, 16, a curious and intelligent aspiring journalist; and little Mia, 10, with an uncanny ability to sense things others couldn’t—made up their picture-perfect family. But what seemed like a normal life took a sharp turn into darkness one fateful night.
+
+Scene 1: The Disappearance
+One cold October evening, as the family gathered for dinner, a loud knock on the door echoed through their home. When James answered, there was no one there—just an eerie silence and a neatly folded note on the doorstep. The note read: _"The past never stays buried. Find the truth before it finds you."_
+
+Confused and unsettled, James brushed it off as a prank, but that night, Adam vanished without a trace. His bedroom window was left open, his computer screen flashing strange code. The police were called, but there were no signs of forced entry. Only Mia, wide-eyed and trembling, whispered, “The shadows took him.”
+
+Scene 2: The Clues Begin
+Emma, determined to uncover the truth, searched Adam’s computer and found encrypted files labeled "Echo." When she and her father decrypted them, they discovered hidden research on a local legend—The Silent Echo, a myth about an abandoned asylum outside town where voices from the past were said to haunt the walls. Adam had been investigating disappearances linked to the asylum for months.
+
+A new message popped up on the screen: _"Time is running out. Come alone."_
+
+Scene 3: The Journey to the Asylum
+James and Emma, unable to ignore the warning, left for the asylum that night, leaving Laura and Mia at home. As they drove through the foggy woods, Emma noticed shadows moving unnaturally between the trees. The asylum stood desolate, its iron gates creaking in the wind. Inside, flickering lights revealed old patient records, each one marked with a symbol identical to the one found in Adam’s files.
+
+They followed a trail of cryptic messages, leading them deeper into the building. As they reached the basement, a guttural voice whispered, "You shouldn't have come."
+
+Scene 4: The Unraveling Truth
+Back at home, Mia began sketching something in a trance—an image of Adam locked in a dark room with strange figures looming over him. Laura, terrified, tried to wake her, but Mia only muttered, “The Echo holds him.”
+
+At the asylum, James and Emma found a hidden chamber filled with monitors, broadcasting live footage of people trapped in underground cells. One of them was Adam. A distorted voice over the speaker said, “History repeats. The debt must be paid.”
+
+James recognized the voice—it was his late father’s. A forgotten secret surfaced: decades ago, his father had been involved in shutting down the asylum under mysterious circumstances. The souls left behind sought vengeance through The Silent Echo.
+
+Scene 5: The Final Confrontation
+Mia, still in her trance, uttered a series of numbers. Laura, realizing they were coordinates, rushed to the asylum with Mia. When they arrived, Mia led them straight to a hidden entrance beneath the building. Inside, James and Emma had found Adam, barely conscious, as dark figures whispered in the air around him.
+
+Mia stepped forward and, with a firm voice, said, “Enough.” The shadows recoiled as an unseen force seemed to push them back. The screens flickered, the air thick with a deafening silence. Then, as if time itself had shattered, the asylum crumbled around them.
+
+The family barely escaped as the building collapsed into dust. The voices ceased, and the Echo was silenced.
+
+Epilogue: A New Beginning?
+Weeks later, life slowly returned to normal, but Adam was different—quieter, distant, as if something still lingered within him. One evening, Mia placed a hand on his and whispered, “They’re not gone.”
+
+And from the darkest corner of the house, a whisper echoed, “Not yet.”
+
+---
+
+ Java Programming Questions Based on *The Silent Echo*
+
+Each topic below consists of 10 questions, starting from basic to medium level, with sample input and output.
+
+ Basic I/O Operations (10 Questions)
+1. Read and print the message left at the doorstep.
+2. Accept multiple lines of input describing asylum records and display them.
+3. Read an encrypted note and replace symbols with spaces.
+4. Take numerical input and find the room number with the highest occurrence.
+5. Read a file containing patient names and print them.
+6. Read and validate a secret code entered by Emma.
+7. Write a program to take input for coordinates and print the formatted path.
+8. Read a sentence and check for palindrome words.
+9. Convert given input timestamps into readable date formats.
+10. Count the number of words in an intercepted message.
+
+Change the Questions as Descriptive type for Programming with Sample input and Output
+
+
+ OOPS Concepts (10 Questions)
+- Encapsulation: Securely handle messages in a `Note` class.
+- Abstraction: Implement an abstract class `Clue` with an abstract method `revealHint()`.
+- Inheritance: Extend `Person` class into `Detective`.
+- Polymorphism: Overload a method `decodeMessage()` for different parameter types.
+- Interfaces: Implement an interface `Unlockable` for doors.
+- Constructor Overloading: Create different constructors for a `Suspect` class.
+- Static Methods: Implement a helper class for decoding symbols.
+- Final Keyword: Use `final` to prevent modification in `RestrictedRoom`.
+- Super Keyword: Use `super` to call a parent class method from `InvestigatingOfficer`.
+- Method Overriding: Override `investigate()` method in `Detective` subclass.
+
+ Strings (10 Questions)
+- Reverse a mysterious text.
+- Extract hidden words from a message.
+- Sort a list of words alphabetically.
+- Find a specific word in a given paragraph.
+- Convert a hexadecimal code into text.
+- Replace special symbols with spaces.
+- Find duplicate words in a message.
+- Implement a cipher to encode and decode text.
+- Remove unwanted characters from a list of clues.
+- Check if a given sequence matches a secret pattern.
+
+ Arrays (10 Questions)
+- Sort an array of room numbers.
+- Find the most frequently occurring room number.
+- Merge two sorted arrays of asylum patients.
+- Find missing numbers in a given range.
+- Identify duplicate room assignments.
+- Rotate an array of clues.
+- Check if an array is sorted.
+- Find the second largest element.
+- Reverse an array of records.
+- Implement a binary search to find a room.
+
+ Collections (10 Questions)
+1. Store room numbers in a `HashSet` and print them.
+2. Use a `TreeMap` to store patient records and retrieve them in sorted order.
+3. Implement a `Queue` to maintain the order of asylum investigations.
+4. Use a `HashMap` to count occurrences of suspicious words in messages.
+5. Implement a `Stack` to backtrack through visited rooms in the asylum.
+6. Sort a list of suspect names using `ArrayList`.
+7. Use a `PriorityQueue` to order asylum escape plans based on risk.
+8. Convert an array of decrypted messages into a `Set` to remove duplicates.
+9. Implement a `LinkedList` to maintain the sequence of discovered clues.
+10. Use a `Vector` to store emergency contacts of the missing persons.
+
+ JDBC (10 Questions)
+1. Connect to an asylum database and fetch room details.
+2. Insert a new patient record into the database.
+3. Retrieve and display all encrypted messages from the database.
+4. Update a suspect’s information in the database.
+5. Delete old, irrelevant records from the database.
+6. Create a table `Investigations` and insert case details dynamically.
+7. Fetch and display the most recent investigation details.
+8. Filter records from the `Patients` table based on medical conditions.
+9. Use JDBC transactions to ensure multiple database operations succeed together.
+10. Implement a connection pool to manage multiple database requests efficiently.
+
+Each question now covers a gradual learning path from basic to medium level. Let me know if you need any modifications!
+

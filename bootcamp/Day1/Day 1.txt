@@ -1,0 +1,12 @@
+Arrays
+	Advantages of Array
+	1) reduce the no of Variables
+	2) Previlage to Organise my data
+	3) Reduce line of Code
+	Disadvantages of Array
+	1) Continuous Memory allocation
+	2) Each Operation Consumes more Time
+
+Linked List
+	1) Not continuous Memory allocation
+

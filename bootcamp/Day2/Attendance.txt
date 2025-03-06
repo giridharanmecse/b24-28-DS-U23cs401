@@ -1,0 +1,28 @@
+I CSE B 
+AB : 100,129,
+I CSE C
+AB : 151,155,165,180,186,
+AB : 188
+login to :
+
+https://lms.sece.ac.in/moodle
+username : rollno (CSE001)
+password : Student1234#
+
+https://discord.gg/NNuH2JBh
+
+
+head|100x->10|200x->20|300x->30|NULL
+20
+40
+while(temp!=NULL){
+	if(temp->data == searchKey){
+		temp->data = updatedValue;
+		return;
+	}
+	temp = temp->next;
+}
+
+
+
+
