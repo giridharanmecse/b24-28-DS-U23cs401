@@ -113,6 +113,27 @@ struct node * deleteAtLast(struct node * head){
     }
 }
 
+struct node * deleteAtSpecificPosition(struct node * head,int pos){
+    if(head == NULL || pos < 1){
+        return NULL;
+    } else if(head == NULL && pos>1){
+        return NULL;
+    } else if(pos == 1){
+        return deleteAtFirst(head);
+    } else {
+        struct node * temp = head;
+        int count= 0;
+        while(temp!=NULL && count<pos-1){
+            temp = temp->next;
+            count++;
+        }
+        if(temp->next !=NULL){
+            temp->next = temp->next->next;
+            temp->next->prev = temp;
+        }
+        return head;        
+    }
+}
 
 int main(){
     return 0;
