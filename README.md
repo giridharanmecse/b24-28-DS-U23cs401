@@ -31,4 +31,22 @@
     1) Reverse
     2) Cyclic Detection
     3) Merge to Sorted Linked List
+    4) Find Middle Element
+## Stack
+    1) Type of Stack
+        1) Fixed Size
+        2) Dynamic Size
+    2) Operation
+        1) Push
+        2) Pop
+        3) Display
+        4) Peek
+        5) IsEmpty
+        6) IsFull
+    3) Problems
+        1) balancing paranthesis
+        2) Evaluate Postfix Expression
+        3) Infix to Postfix
+        4) Infix to Prefix
+
     
