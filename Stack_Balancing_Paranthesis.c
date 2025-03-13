@@ -75,6 +75,7 @@ char pop(struct stack * s){
 }
 
 void viewStack(struct stack * s){
+    printf("Stack Contains : ");
     for(int i = 0; i <= s->top; i++){
         printf("%c ",s->arr[i]);
     }
@@ -83,9 +84,50 @@ void viewStack(struct stack * s){
 
 int main(){
     struct stack * s = NULL;
-    char arr[100];
+    char arr[100],ch;
     int size;
     scanf("%s%n",arr,&size);
     s = creatStack(size);
+    for(int i=0;i<size;i++){
+        ch = arr[i];
+        switch (ch){
+            case '{':
+            case '[':
+            case '(':
+                push(s,ch);
+                viewStack(s);
+                break;
+            case '}':
+                ch = pop(s);
+                viewStack(s);
+                if(ch != '{'){
+                    printf("Invalid Expression\n");
+                    return 0;
+                }
+                break;
+            case ']':
+                ch = pop(s);
+                viewStack(s);
+                if(ch != '['){
+                    printf("Invalid Expression\n");
+                    return 0;
+                }
+                break;
+            case ')':
+                ch = pop(s);
+                viewStack(s);
+                if(ch != '('){
+                    printf("Invalid Expression\n");
+                    return 0;
+                }
+                break;
+        }
+    }
+    if(isEmpty(s)){
+        printf("Valid Expression\n");
+    } else {
+        printf("Invalid Expression\n");
+    }
+
     return 0;
 }
