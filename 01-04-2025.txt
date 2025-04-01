@@ -1,2 +1,9 @@
+Morning 1st hour
 AB : 142,151,161,162,170,176,182,183,186,196,200,
 OD : 155,
+
+Afternoon from 5th hour
+AB : 151,161,162,170,176,182,183,186,196,198,
+OD : 155,
+
+leetcode.com/problem-list/22xlxl6s/
