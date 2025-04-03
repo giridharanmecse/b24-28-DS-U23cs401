@@ -48,5 +48,20 @@
         2) Evaluate Postfix Expression
         3) Infix to Postfix
         4) Infix to Prefix
+## Queue
+    1) Types of Queue
+        1) Normal Queue
+        2) Circular Queue
+        3) Double Ended Queue
+        4) Priority Queue
+    2) Operations
+        1) Enqueue
+        2) Dequeue
+        3) GetFirst
+        4) GetLast
+        5) ISFull
+        6) IsEmpty
+    3) Problems
+        1) Queue implementation using stack
 
     
