@@ -1,0 +1,18 @@
+AB : 142,143,146,151,155,160,163,165,166,169,170,172,174,175,179,
+     ,186,193,196,197,200, 
+OD :
+Afternoon
+AB : ,143,146,151,155,160,163,165,166,169,170,172,174,175,179,
+     ,186,193,196,197, 
+
+od: 157
+
+
+Binary Search Tree
+binary tree + Binary Search Algorithm
+properties:
+1) Root node 
+2) All the node To it left are smaller than my root node
+3) All the node to the right of root are greater
+4) all the sub trees follow the same property
+5) All node are unique
