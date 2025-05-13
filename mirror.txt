@@ -1,0 +1,11 @@
+mirror(struct Node * root){
+    if(root== NULL){
+        return;
+    } else {
+        struct Node * temp = root->left;
+        root->left = root->right;
+        root->right = temp;
+        mirror(root->left);
+        mirror(root->right);
+    }
+}
